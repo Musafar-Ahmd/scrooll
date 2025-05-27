@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'calander_widget.dart';
+
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
@@ -29,6 +31,17 @@ class _HomeScreenState extends State<HomeScreen> {
 
     return Scaffold(
       appBar: AppBar(
+        actions: [
+          IconButton(
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (_) => CalendarScreen()),
+              );
+            },
+            icon: Icon(Icons.date_range,color: Colors.black,),
+          ),
+        ],
         title: const Text(
           "Home",
           style: TextStyle(fontWeight: FontWeight.bold),
