@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/scrooll.iml" filepath="$PROJECT_DIR$/scrooll.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/scrooll_android.iml" filepath="$PROJECT_DIR$/android/scrooll_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/scrooll.iml" filepath="$PROJECT_DIR$/.idea/scrooll.iml" />
     </modules>
   </component>
 </project>
